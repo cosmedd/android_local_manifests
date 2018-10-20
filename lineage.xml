@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="zuk-devs" fetch="https://github.com/zuk-devs/" push="ssh://git@github.com/zuk-devs/" revision="lineage-15.1"/>
+  <remote name="zuk-devs" fetch="https://github.com/cosmedd/" push="ssh://git@github.com/cosmedd/" revision="lineage-15.1"/>
 
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu" name="gcc-prebuilts" remote="zuk-devs" revision="master"/>
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu" name="gcc-prebuilts" remote="cosmedd" revision="master"/>
 
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github"/>
 
